@@ -130,14 +130,14 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #E6D3AE;
+    background-color: #839DA9;
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    background-color: #8C8F89;
+    background-color: #B96B73;
 }
 
 .section-heading {
@@ -161,6 +161,24 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+
+  /* If we weren't using text-shadow, we'd set a fallback color
+     and use this to set color instead
+    -webkit-text-fill-color: white; */
+
+  color: white;
+
+/*  text-shadow:
+    3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
 }
 
 .banner ul {
